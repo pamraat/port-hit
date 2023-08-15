@@ -1,0 +1,23 @@
+# Parallelization
+Partition :	1 1 6
+
+# Mesh definition
+Lx : 1
+nx : 100
+
+# Fluid properties
+Dynamic viscosity : 2.23e-5
+Density :           1.87e-3
+Forcing constant :  50.0
+
+# Particle properties
+Particle density :     700
+Particle diameter :    25e-6
+Number of particles :  100000
+
+# Time integration
+Max timestep size : 1e-4
+Max cfl number :    0.9
+
+# Ensight output
+Ensight output period : 0.001
